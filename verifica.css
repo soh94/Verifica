@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat';
+    margin: 0 0 0 0;
+}
+body p {
+    color: grey;
+}
+a, .fa {
+    color: #00d2b5;
+    text-decoration: none;
+}
+button, .form_item_button {
+    background-color: #00d2b5;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    border: none;
+}
+.blocco_bianco {
+    background-color: white;
+}
+.blocco_grigio {
+    background-color: rgb(220, 220, 220);
+}
+.blocco {
+    text-align: left;
+    height: 600px;
+    padding-top: 10px;
+    margin: 0 100px 0 100px;
+}
+.no_right_margin {
+    margin-right: 0px;
+    height: 650px;
+}
+.site_title, .blocco_menu {
+    text-align: center;
+}
+.blocco_titolo {
+    padding: 1% 0 1% 0;
+    text-align: center;
+}
+.menu_items li {
+    display: inline-block;
+    padding: 10px;
+}
+.menu_items a {
+    color: black;
+}
+.menu_items a:hover {
+    color: #00d2b5;
+}
+.blocco_testo_sx {
+    float: left;
+    width: 20%;
+}
+.blocco_testo_sx_titolo {
+    font-weight: bolder;
+    font-size: larger;
+}
+.blocco_testo_sx_testo {
+    font-size: small;
+}
+.blocco_immagine {
+    float: right;
+    width: 60%;
+}
+.blocco_immagine img {
+    height: 500px;
+}
+#home {
+    margin-right: 0px;
+}
+#home_header {
+    height: 550px;
+}
+#features {
+    padding: 0 5% 0 5%;
+}
+.funzioni {
+    float: left;
+    display: inline;
+    background-color: white;
+    width: 31%;
+    margin: 1%;
+    overflow: auto;
+    padding: 0 1% 1% 1%;
+}
+.funzioni_icona {
+    padding: 4% 0 1% 0;
+    font-size: 20px;
+}
+.funzioni_titolo {
+    margin: 0;
+    padding: 0;
+}
+#prototypes {
+    height: 1000px;
+}
+.prototypes_container {
+    height: 45%;
+}
+.prototype_img_left {
+    float: left;
+    width: 60%;
+}
+.prototype_img_left img {
+    height: 500px;
+}
+.prototype_testo_right {
+    float: right;
+    width: 40%;
+}
+.prototype_img_right {
+    float: right;
+    width: 60%;
+}
+.prototype_img_right img {
+    height: 500px; 
+}
+.prototype_testo_left {
+    float: left;
+    width: 40%;
+}
+.prototype_testo_lista ul {
+    list-style: none;
+    padding: 0 0 0 0;
+}
+.prototype_testo_lista li ::before {
+    content: "\f00c";
+    font-family: "FontAwesome";
+    display: inline-block;
+    margin: 0 5px 0 0;
+    color: #00d2b5;
+}
+.staff_box {
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    padding: 3%;
+}
+.staff_box_header {
+    float: left;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.staff_box_img img {
+    float: left;
+    width: 15%;
+    border-radius: 50%;
+}
+.staff_box_title {
+    float: right;
+    width: 80%;
+}
+.staff_box_name p {
+    font-weight: bolder;
+    color: black;
+    margin: 0 0 0 0;
+}
+.staff_box_role {
+    font-weight: normal;
+    font-size: small;
+}
+.prototype_img img {
+    width: 100%
+}
+.about_us_container {
+    height: 300px;
+}
+.about_us_immagine {
+    float: left;
+    width: 50%;
+    padding: 5%;
+}
+.about_us_immagine img {
+    width: 100%;
+}
+.about_us_testo {
+    float: right;
+    width: 50%;
+    padding: 5%;
+}
+.about_us_testo_titolo h3 {
+    margin-top: 0px;
+}
+.about_us_testo_testo {
+    font-size: small;
+}
+#testimonials {
+    height: 1000px;
+}
+.testimonials {
+    height: 45%;
+    text-align: center;
+}
+.testimonial_img img {
+    width: 80px;
+    border-radius: 50%;
+}
+.testimonial_text {
+    width: 40%;
+    margin-left: 30%;
+}
+.blog_posts_title {
+    text-align: center;
+    font-weight: bolder;
+}
+.blog_posts {
+    height: 35%;
+}
+.blog_posts_posts {
+    height: 100%;
+}
+.blog_posts_post {
+    width: 30%;
+    float: left;
+    padding: 0 20px 0 0;
+}
+.blog_posts_post_img {
+    height: 30%;
+}
+.blog_posts_post_img img {
+    width: 100%;
+}
+.blog_posts_post_info {
+    width: 100%;
+}
+.info_name, .info_date, .info_category {
+    display: inline-block;
+    padding: 0 5px 0 0;
+    font-size: small;
+}
+.info_date::before, .info_category::before {
+    content: "\f111";
+    font-family: "FontAwesome";
+    display: inline-block;
+    font-size: 8px;
+    vertical-align: center;
+    margin: 0 5px 0 0;
+}
+.info_date p {
+    display: inline-block;
+}
+.contact_form {
+    background-color: white;
+    width: 35%;
+    margin: 0 32.5% 0 32.5%;
+    padding: 3% 3% 3% 3%;
+    border-radius: 10px;
+}
+.contact_form input {
+    margin: 5px 0 5px 0;
+    width: 100%;
+}
+.contact_form label {
+    margin: 5px 0 5px 0;
+    display: block;
+}
+.form_item_inline {
+    width: 100%;
+    float: left;
+
+}
+.form_item_inline_left {
+    float: left;
+    width: 45%;
+    margin: 0 5% 0 0;
+}
+.form_item_inline_right {
+    float: left;
+    width: 45%;
+    margin: 0 0 0 5%;
+}
+
+.form_item_textarea {
+    width: 100%;
+}
+.form_item_button {
+    margin: 0 0 5px 0;
+    max-width: 40%;
+}
